@@ -1,0 +1,215 @@
+{
+  "id": "361fc3fc-f5e8-4970-b1bd-a87100b41c1c",
+  "version": "2.0",
+  "name": "Upload E-BOOK",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "c2c392d1-d7a7-43db-91cb-5ad95394579a",
+    "name": "TC-MO 14",
+    "commands": [{
+      "id": "8b7054cb-ca24-4b14-8b70-bbcef1e75021",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cf55f0a-d9f6-4255-a811-ba346cd7cf8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79de450e-4db6-4fe0-987e-e5398be5f9d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.py-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/login']", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b718fae2-0ef9-46a6-aab0-d080bd56fa5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "820b14b3-6fbc-417e-a5a4-4596040cef5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "28e93e7c-fdb9-4830-8bd9-9c5951730b6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f789b7e3-4916-4475-b6b5-5703f7521304",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "e3fee0eb-306f-479a-96eb-03b807a379f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3472a76-966e-46a9-9a8e-0cbdddb0f485",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown:nth-child(4) .bi",
+      "targets": [
+        ["css=.dropdown:nth-child(4) .bi", "css:finder"],
+        ["xpath=//nav[@id='navbar']/ul/li[4]/a/i", "xpath:idRelative"],
+        ["xpath=//li[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4cd47dc-8583-40e2-b07c-dbe6f3744f6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin Control",
+      "targets": [
+        ["linkText=Admin Control", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Control')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/admin/admin']", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Admin Control')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fce67ac4-2d7a-458e-9469-7d851f49004f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tambah Library",
+      "targets": [
+        ["linkText=Tambah Library", "linkText"],
+        ["css=a:nth-child(14)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambah Library')]", "xpath:link"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/admin/add/library']", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tambah Library')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb6d30b-f648-4ce4-aec8-1c7049dddddb",
+      "comment": "",
+      "command": "click",
+      "target": "id=judul",
+      "targets": [
+        ["id=judul", "id"],
+        ["name=judul", "name"],
+        ["css=#judul", "css:finder"],
+        ["xpath=//input[@id='judul']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "789d56df-0167-441c-8bee-74e0bdf8166c",
+      "comment": "",
+      "command": "type",
+      "target": "id=judul",
+      "targets": [
+        ["id=judul", "id"],
+        ["name=judul", "name"],
+        ["css=#judul", "css:finder"],
+        ["xpath=//input[@id='judul']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "GMNI PEDULI"
+    }, {
+      "id": "8a302d98-569e-4c55-9faa-5a323fa84700",
+      "comment": "",
+      "command": "click",
+      "target": "name=dokumen",
+      "targets": [
+        ["name=dokumen", "name"],
+        ["css=.row:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='dokumen']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb5bef5-90a5-4825-a203-0ad7324f6c16",
+      "comment": "",
+      "command": "type",
+      "target": "name=dokumen",
+      "targets": [
+        ["name=dokumen", "name"],
+        ["css=.row:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//input[@name='dokumen']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Confirm Request Akun Admin.side"
+    }, {
+      "id": "5b3210ed-6db9-4e49-9e47-8b4de461ede9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c69f62dc-5418-4a6f-bbc7-22880054d882",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2c392d1-d7a7-43db-91cb-5ad95394579a"]
+  }],
+  "urls": ["http://127.0.0.1:8000/"],
+  "plugins": []
+}

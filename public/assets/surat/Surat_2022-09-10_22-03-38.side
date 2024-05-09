@@ -1,0 +1,249 @@
+{
+  "id": "c0893c8b-a60d-43e2-9851-33189d863e59",
+  "version": "2.0",
+  "name": "Tambah Data DPK",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "f4c7bd3f-d5bd-44f9-9388-a78a9766af46",
+    "name": "TC-MO 16",
+    "commands": [{
+      "id": "709c80f9-bf98-4d9e-9652-28fc46baee3b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67d062e7-7b91-49c6-aaf5-75c15196b145",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf65627f-e11b-4ccd-b58c-4714e12cd9ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.py-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/login']", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a78910-a00c-4de1-8f55-53b6a3714198",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed8c1f4-ed1a-4058-987b-7235458caeb8",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "67c5732a-214f-4ec7-882c-562689f12661",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "5d9f282e-0fd3-49b4-a442-4b11796fa827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92156afb-4b09-4760-9770-19053545ebf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Admin Control",
+      "targets": [
+        ["linkText=Admin Control", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Admin Control')]", "xpath:link"],
+        ["xpath=//nav[@id='navbar']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/admin/admin']", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Admin Control')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cb10e8b-6f9f-4fc4-80ca-02e022c21d93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tambah DPK",
+      "targets": [
+        ["linkText=Tambah DPK", "linkText"],
+        ["css=a:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambah DPK')]", "xpath:link"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/admin/add/dpk']", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tambah DPK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eb59fc4-809c-4a87-a342-df3bf114bc36",
+      "comment": "",
+      "command": "type",
+      "target": "id=nama",
+      "targets": [
+        ["id=nama", "id"],
+        ["name=nama", "name"],
+        ["css=#nama", "css:finder"],
+        ["xpath=//input[@id='nama']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "DPK STI"
+    }, {
+      "id": "4175cf8e-a0fb-419d-a233-184a94175aae",
+      "comment": "",
+      "command": "click",
+      "target": "id=universitas",
+      "targets": [
+        ["id=universitas", "id"],
+        ["name=universitas", "name"],
+        ["css=#universitas", "css:finder"],
+        ["xpath=//select[@id='universitas']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e86201-260c-4721-bdc7-4fd7efe28959",
+      "comment": "",
+      "command": "click",
+      "target": "id=tipe",
+      "targets": [
+        ["id=tipe", "id"],
+        ["name=tipe", "name"],
+        ["css=#tipe", "css:finder"],
+        ["xpath=//select[@id='tipe']", "xpath:attributes"],
+        ["xpath=//div[3]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8780850d-2c45-467e-b2e2-91d8d55cd355",
+      "comment": "",
+      "command": "select",
+      "target": "id=tipe",
+      "targets": [],
+      "value": "label=Definitif"
+    }, {
+      "id": "80e540bd-ec62-4ad2-8103-89de1b96058e",
+      "comment": "",
+      "command": "click",
+      "target": "name=bio",
+      "targets": [
+        ["name=bio", "name"],
+        ["css=.row:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='bio']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "834145be-bd4e-410a-9462-160c87f72397",
+      "comment": "",
+      "command": "click",
+      "target": "name=bio",
+      "targets": [
+        ["name=bio", "name"],
+        ["css=.row:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='bio']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f8ed0ca-190a-4f66-bd2f-ecdc33f64b1c",
+      "comment": "",
+      "command": "type",
+      "target": "name=bio",
+      "targets": [
+        ["name=bio", "name"],
+        ["css=.row:nth-child(5) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='bio']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "blabla"
+    }, {
+      "id": "7946a2fe-5ea6-484b-b9bd-ae12a97ad9ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=image",
+      "targets": [
+        ["id=image", "id"],
+        ["name=image", "name"],
+        ["css=#image", "css:finder"],
+        ["xpath=//input[@id='image']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaaca0cf-fbe7-49bd-ad5c-46987d1dbc17",
+      "comment": "",
+      "command": "type",
+      "target": "id=image",
+      "targets": [
+        ["id=image", "id"],
+        ["name=image", "name"],
+        ["css=#image", "css:finder"],
+        ["xpath=//input[@id='image']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\Upload E-BOOK.side"
+    }, {
+      "id": "dded3ef3-962b-46c4-9be1-2e04026caf38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2957054b-086d-4624-8712-92633d61b5c8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f4c7bd3f-d5bd-44f9-9388-a78a9766af46"]
+  }],
+  "urls": ["http://127.0.0.1:8000/"],
+  "plugins": []
+}
